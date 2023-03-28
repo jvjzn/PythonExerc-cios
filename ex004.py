@@ -1,0 +1,11 @@
+x = input ('digite qualquer coisa: ')
+print ('O tipo primitivo do conteúdo digitado é:', type(x))
+print('O conteúdo digitado é numérico?' , x.isnumeric())
+print('É alfabético?' , x.isalpha())
+print('É alfanumérico?' , x.isalnum())
+print('É totalmente maísculo?', x.isupper())
+print('É totalmente minúsculo?', x.islower())
+print('Só tem espaços?', x.isspace())
+print('Está capitalizada? (Apenas a primeira letra maiúscula)', x.istitle())
+
+print('--FIM--')
